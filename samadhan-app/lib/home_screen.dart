@@ -24,7 +24,9 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       _selectedIndex = index;
     });
-  }  @override
+  }
+
+  @override
   Widget build(BuildContext context) {
     // Determine which screen to show based on selected index
     Widget currentScreen;
